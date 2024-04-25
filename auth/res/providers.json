@@ -1,0 +1,41 @@
+{
+    "Discord": {
+        "Enabled": false,
+        "ClientID": "",
+        "ClientSecret": "",
+        "CallbackURL": ""
+    },
+    "GitHub": {
+        "Enabled": false,
+        "ClientID": "",
+        "ClientSecret": "",
+        "CallbackURL": ""
+    },
+    "GitLab": {
+        "Enabled": false,
+        "AppID": "",
+        "Secret": "",
+        "SelfHostGL_URL": null,
+        "CallbackURL": ""
+    },
+    "Google": {
+        "Enabled": false,
+        "ClientID": "",
+        "ClientSecret": "",
+        "AuthorizedClientIDS": [],
+        "SkipNonceCheck": false,
+        "CallbackURL": ""
+    },
+    "Notion": {
+        "Enabled": false,
+        "OAuth_ClientID": "",
+        "OAuth_ClientSecret": "",
+        "CallbackURL": ""
+    },
+    "Spotify": {
+        "Enabled": false,
+        "ClientID": "",
+        "ClientSecret": "",
+        "CallbackURL": ""
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "Hosting": {
+        "Enabled": false,
+        "HttpPort": 80,
+        "HttpsPort": 443,
+        "HttpFallbackPort": 8080,
+        "HttpsFallbackPort": 8443
+    },
+    "Auth": {
+        "Enabled": false,
+        "ProvidersFile": "providers.json"
+    },
+    "RealtimeDB": {
+        "Enabled": false,
+        "DatabaseType": "Json",
+        "DatabaseBuckets": [
+            "db/default.json"
+        ]
+    },
+    "Storage": {
+        "Enabled": false,
+        "Buckets": [
+            "storage/bucket_default.json"
+        ]
+    },
+    "WebInteraction": {
+        "Enabled": true,
+        "Port": 8100
+    }
+}
